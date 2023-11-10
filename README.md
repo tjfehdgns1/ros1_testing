@@ -3,7 +3,7 @@
 ### Window + Docker
 1. build container
 ```
-docker run -it --name ros_ -e DISPLAY=host.docker.internal=0.0 ros1 bash
+docker run -it --name ros_ -e DISPLAY=host.docker.internal:0.0 ros1 bash
 ```
 2. connect bash
 ```
